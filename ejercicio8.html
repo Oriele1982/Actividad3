@@ -1,0 +1,96 @@
+<!-- Realice las modificaciones necesarias para corregir el comportamiento.
+hint: clearfix -->
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Box Model</title>
+	<link rel="stylesheet" href="">
+	<style>
+		body,html {
+			margin: 0;
+		}
+		ul.menu {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		ul.menu li {
+			box-sizing: border-box;
+			background: olive;
+			width: 25%;
+			float: left;
+		}
+
+		ul.menu li a {
+			color: #FFF;
+			text-decoration: none;
+			display: block;
+			padding: 10px;
+		}
+		ul.menu li a:hover {
+			background: #000;
+		}
+
+	</style>
+</head>
+<body>
+	<ul class="menu">
+		<li><a href="#">Item-1</a></li>
+		<li><a href="#">Item-2</a></li>
+		<li><a href="#">Item-3</a></li>
+	</ul>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusamus odio voluptatem blanditiis corrupti impedit sequi incidunt libero, natus eveniet atque aspernatur nesciunt praesentium culpa, quas facilis, ea quae exercitationem.</p>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Box Model</title>
+	<link rel="stylesheet" href="">
+	<style>
+		body,html {
+			margin: 0;
+		}
+		ul.menu {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+		ul.menu li {
+			box-sizing: border-box;
+			background: olive;
+			width: 25%;
+			float: left;
+		}
+
+		ul.menu li a {
+			color: #FFF;
+			text-decoration: none;
+			display: block;
+			padding: 10px;
+		}
+		ul.menu li a:hover {
+			background: #000;
+		}
+
+		p{
+			clear: both;
+			padding-top: 10px;
+		}
+	</style>
+</head>
+<body> 
+	<ul class="menu">
+		<li><a href="#">Item-1</a></li>
+		<li><a href="#">Item-2</a></li>
+		<li><a href="#">Item-3</a></li>
+	</ul>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum accusamus odio voluptatem blanditiis corrupti impedit sequi incidunt libero, natus eveniet atque aspernatur nesciunt praesentium culpa, quas facilis, ea quae exercitationem.</p>
+</body>
+</html>
