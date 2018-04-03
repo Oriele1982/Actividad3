@@ -1,0 +1,42 @@
+<!-- Utilizando position diseñe el siguiente HTML en función de la figura que se presenta a
+continuación:
+El objetivo es que pueda incorporar el ribbon "oferta" en la esquina superior izquierda,
+sobre la foto del producto. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ribbon foto</title>
+	<link rel="stylesheet" href="">
+	<style>
+		.photo{
+			width: 480px;
+			height: 480px;
+			background-image: url(images/lentesvr.jpg);
+			border: 1px solid grey;
+			position: relative;
+			left: 430px;
+		}
+
+		img{
+			height: 300px;
+			width: 300px;
+			display: inline-block;
+		}
+		
+		p{
+			text-align: center;
+			font-size: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="photo">
+		<img src="images/label_red.png" alt="">
+	</div>
+	<p> Lente Vr 7383 4.3" A 6" + Control</p>
+</body>
+</html>
